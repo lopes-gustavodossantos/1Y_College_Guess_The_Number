@@ -92,12 +92,15 @@ public class guessTheNumber extends javax.swing.JFrame {
         }
         else {
             guessResult.setText("CORRECT");
+            txtGuess.setEditable(false);
         }
     }
 
     private void bntNewGameActionPerformed(java.awt.event.ActionEvent evt) {
         numeroAleatorio(1000);
+        txtGuess.setEditable(true);
         txtGuess.setText("");
+        guessResult.setText("");
     }
     
     public static void main(String args[]) {
