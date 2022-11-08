@@ -1,5 +1,3 @@
-package com.atitus.poo.jogoadivinhacao;
-
 import java.util.Random;
 
 public class guessTheNumber extends javax.swing.JFrame {
